@@ -25,6 +25,33 @@
             cursor: default;
             color: blue;
         }
+
+        body {
+            overflow: auto;
+            padding: 0px !important;
+            margin: 0px !important;
+            box-sizing: border-box !important;
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Chrome, Safari, Opera */
+        * ::-webkit-scrollbar {
+            width: 0 !important;
+            height: 0 !important;
+        }
+
+        /* Firefox */
+        * {
+            overflow: -moz-scrollbars-none;
+        }
+
+        /* Internet Explorer */
+        * {
+            -ms-overflow-style: none;
+        }
     </style>
 </head>
 
