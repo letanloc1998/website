@@ -33,6 +33,10 @@
             box-sizing: border-box !important;
             width: fit-content;
         }
+
+        td:hover {
+            background-color: yellow;
+        }
     </style>
 </head>
 
@@ -89,15 +93,21 @@
                     title="Môn này dễ, học chung với mấy môn kia cho nhẹ<hr>Mấy môn triết nó tiên quyết liên tọi nên phải học sớm<br>MLL14<br>ML016<br>ML018<br>ML019<br>ML021">
                     <span class="text-secondary">ML021 2TC</span><br>Tư tưởng Hồ Chí Minh
                 </td>
-                <td>II</td>
+                <td data-toggle="tooltip" data-placement="top" data-html="true"
+                title="Có kiến thức làm<br>CT250 Niên luận ngành Kỹ thuật phần mềm<hr>Học web rồi học môn này">
+                    <span class="text-secondary">CT239 3TC</span><br>Niên luận cơ sở ngành KTPM
+                </td>
                 <td>
                     <span class="text-secondary">CT474 3TC</span><br>Thực tập thực tế KTPM
                 </td>
-                <td>III</td>
+                <td data-toggle="tooltip" data-placement="top" data-html="true"
+                title="Có kiến thức làm<br>CT553 Luận văn tốt nghiệp KTPM<hr>Học 4 môn tiên quyết rồi học môn này">
+                    <span class="text-secondary">CT250 3TC</span><br>Niên luận ngành KTPM
+                </td>
                 <td>
                     <span class="text-secondary">CT553 15TC</span><br>Luận văn tốt nghiệp KTPM
                 </td>
-                <td>III</td>
+                <td></td>
             </tr>
             <tr class="text-center">
                 <td>
@@ -131,14 +141,13 @@
                     title="Bị tiên quyết môn CT178 Nguyên lý hệ điều hành<hr>Học môn này để học môn<br>CT179 Quản trị hệ thống">
                     <span class="text-secondary">CT112 3TC</span><br>Mạng máy tính
                 </td>
-                <td>III</td>
-
+                <td></td>
                 <td data-toggle="tooltip" data-placement="top" data-html="true"
                     title="Đã học xong<br>CT178 Nguyên lý hệ điều hành<br>CT112 Mạng máy tính">
                     <span class="text-secondary">CT179 3TC</span><br>Quản trị hệ thống
                 </td>
-                <td>II</td>
-                <td>III</td>
+                <td></td>
+                <td></td>
             </tr>
             <tr class="text-center">
                 <td>
@@ -169,10 +178,10 @@
                     <span class="text-secondary">CT449 3TC</span><br>Phát triển ứng dụng web
                 </td>
                 <td>II</td>
-                <td>III</td>
+                <td></td>
                 <td>I</td>
-                <td>II</td>
-                <td>III</td>
+                <td></td>
+                <td></td>
             </tr>
             <tr class="text-center">
                 <td></td>
@@ -201,16 +210,46 @@
                     title="Biết đánh cờ vua thì học cờ vua cho dễ học và dễ đăng kí, biết đá banh hay đánh cầu thì học cũng được, đừng học taewondo">
                     <span class="text-secondary">TC027 1TC</span><br>Cờ vua 3
                 </td>
-                <td>III</td>
+                <td></td>
                 <td>I</td>
-                <td>II</td>
-                <td>III</td>
+                <td></td>
+                <td></td>
             </tr>
             <tr class="text-center">
                 <td></td>
                 <td data-toggle="tooltip" data-placement="top" data-html="true"
                     title="Học môn này sớm để còn dùng kiến thức năm 12<hr>Tiên quyết<br>XH025 Anh văn căn bản 3">
                     <span class="text-secondary">XH024 3TC</span><br>Anh văn căn bản 2
+                </td>
+                <td></td>
+                <td data-toggle="tooltip" data-placement="top" data-html="true"
+                title="Tiên quyết<br>CT250 Niên luận ngành Kỹ thuật phần mềm">
+                <span class="text-secondary">CT223 3TC</span><br>Quản lý dự án phần mềm
+            </td>
+            <td data-toggle="tooltip" data-placement="top" data-html="true"
+                title="Tiên quyết<br>CT250 Niên luận ngành Kỹ thuật phần mềm">
+                <span class="text-secondary">CT242 3TC</span><br>Kiến trúc và thiết kế phần mềm
+            </td>
+            <td></td>
+            <td data-toggle="tooltip" data-placement="top" data-html="true"
+                title="Tiên quyết<br>CT250 Niên luận ngành Kỹ thuật phần mềm">
+                <span class="text-secondary">CT241 3TC</span><br>Phân tích yêu cầu phần mềm
+            </td>
+            <td data-toggle="tooltip" data-placement="top" data-html="true"
+                title="Tiên quyết<br>CT250 Niên luận ngành Kỹ thuật phần mềm<hr>Học web rồi học môn này">
+                <span class="text-secondary">CT243 3TC</span><br>Đảm bảo chất lượng và kiểm thử phần mềm
+            </td>
+                
+                <td></td>
+                <td>I</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="text-center">
+                <td></td>
+                <td data-toggle="tooltip" data-placement="top" data-html="true"
+                    title="Môn này nhẹ, không có bị tiên quyết<hr>Tiên quyết<br>CT241<br>CT242<br>CT243<br>CT244<br>...">
+                    <span class="text-secondary">CT113 2TC</span><br>Nhập môn công nghệ phần mềm
                 </td>
                 <td></td>
                 <td data-toggle="tooltip" data-placement="top" data-html="true"
@@ -224,33 +263,10 @@
                 <td></td>
                 <td>I</td>
                 <td>II</td>
-                <td>III</td>
+                <td></td>
                 <td>I</td>
-                <td>II</td>
-                <td>III</td>
-            </tr>
-            <tr class="text-center">
-                <td></td>
-                <td data-toggle="tooltip" data-placement="top" data-html="true"
-                    title="Môn này nhẹ, không có bị tiên quyết<hr>Tiên quyết<br>CT241<br>CT242<br>CT243<br>CT244<br>...">
-                    <span class="text-secondary">CT113 2TC</span><br>Nhập môn công nghệ phần mềm
-                </td>
-                <td></td>
-                <td data-toggle="tooltip" data-placement="top" data-html="true"
-                    title="Tiên quyết<br>CT250 Niên luận ngành Kỹ thuật phần mềm">
-                    <span class="text-secondary">CT223 3TC</span><br>Quản lý dự án phần mềm
-                </td>
-                <td data-toggle="tooltip" data-placement="top" data-html="true"
-                    title="Tiên quyết<br>CT250 Niên luận ngành Kỹ thuật phần mềm">
-                    <span class="text-secondary">CT241 3TC</span><br>Phân tích yêu cầu phần mềm
-                </td>
                 <td></td>
                 <td></td>
-                <td>II</td>
-                <td>III</td>
-                <td>I</td>
-                <td>II</td>
-                <td>III</td>
             </tr>
             <tr class="text-center">
                 <td></td>
@@ -267,10 +283,10 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td>III</td>
+                <td></td>
                 <td>I</td>
-                <td>II</td>
-                <td>III</td>
+                <td></td>
+                <td></td>
             </tr>
             <tr class="text-center">
                 <td></td>
